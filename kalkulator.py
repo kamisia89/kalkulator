@@ -1,3 +1,5 @@
+import sys
+import logging
 print("KALKULATOR")
 print("1. Dodawanie")
 print("2. Odejmowanie")
@@ -8,12 +10,12 @@ dzialanie = input("Podaj numer działania: ")
 a=int(input("Podaj pierwszą liczbę: "))
 b=int(input("Podaj drugą liczbę: "))
 if dzialanie == "1":
-    print("   a+b= ",a+b)
+    print("   = ",a+b)
 elif dzialanie =="2":
-    print("   a-b= ",a-b)
+    print("   = ",a-b)
 elif dzialanie =="3":
-    print("   a*b= ",a*b)
+    print("   = ",a*b)
 elif dzialanie =="4":
-    print("   a/b= ",a/b)
+    print("   = ",a/b)
 else:
     print("Nie ma takiego działania")
